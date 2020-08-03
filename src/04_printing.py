@@ -14,4 +14,10 @@ z = "I like turtles!"
 
 # Use the 'format' string method to print the same thing
 
+format = "x is %s, y is %s,  z is %s!"
+
+print(format % x,y,z)
+
+
+
 # Finally, print the same thing using an f-string
