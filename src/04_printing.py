@@ -10,6 +10,8 @@ z = "I like turtles!"
 
 myTuple = (x,y,x)
 
+print("********************USING % (printf)**********************************")
+
 # Using the printf operator (%), print the following feeding in the values of x,
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
@@ -18,7 +20,11 @@ format = "x is %s, y is %s,  z is %s!"
 
 print(format % myTuple)
 
+print("******************************************************")
+
+
 # Use the 'format' string method to print the same thing
+print("*******************FORMAT METHOD ***********************************")
 
 
 txt = "X is {0}, y is {1}, z is {2}"
@@ -28,6 +34,15 @@ print(txt.format(10, 2.23552, "I like turtles!"))
 print(txt2)
 print(txt3)
 
-
+print("******************************************************")
 
 # Finally, print the same thing using an f-string
+print("*********************F STRING *********************************")
+
+print(f"X is {x}, y is {y}, z is {z}")
+
+print("******************************************************")
+
+
+
+
