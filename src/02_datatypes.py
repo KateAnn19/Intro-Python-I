@@ -14,8 +14,16 @@ y = "7"
 # Write a print statement that combines x + y into the integer value 12
 
 # YOUR CODE HERE
+print(int(y) + x)
+
+#print(f"hello   {name}")
 
 
 # Write a print statement that combines x + y into the string value 57
 
 # YOUR CODE HERE
+
+z = ''
+z = str(x) + y
+print(f"This is type of z {type(z)}")
+print(type(z))
