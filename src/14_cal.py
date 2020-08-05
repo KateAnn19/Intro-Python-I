@@ -30,3 +30,28 @@ it should use today’s date to get the month and year.
 import sys
 import calendar
 from datetime import datetime
+
+#sx = input("Enter comma-separated numbers: ").split(',')
+
+def user_Cal():
+  mm = datetime.now().month
+  yy = datetime.now().year
+  args_len = len(sys.argv)
+
+  if(args_len == 1):
+    print(calendar.month(yy, mm))
+  elif(args_len == 2):
+    mm = int(sys.argv[1])
+    print(calendar.month(yy, mm))
+  elif(args_len == 3):
+    mm = int(sys.argv[1])
+    yy = int(sys.argv[2])  
+    print(calendar.month(yy, mm)) 
+  else:
+    print("Please format month = 04 and year = 2015")
+   
+    
+  
+
+
+user_Cal()
